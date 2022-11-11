@@ -1,31 +1,53 @@
 .message {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    align-items: flex-end;
+    margin: 30px 180px;
 
 }
 
 .imageAndText {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    color: white;
+
 
 }
 
 .imageAndText img {
-
+    height: 70px;
 }
 
 .text {
-
+    background-color: #0280ff;
+    min-height: min-content;
+    max-width: 530px;
+    max-height: max-content;
+    border-radius: 18px;
+    padding: 10px 10px;
+    margin-right: 20px;
 }
 
 .text:after {
-
 }
 
 .name {
-
+    text-align: end;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .messageText {
-
+    text-align: start;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .time {
-
+    text-align: center;
+    font-weight: bold;
+    margin-right: 15px;
+    font-family: 'Montserrat', sans-serif;
 }
