@@ -1,6 +1,8 @@
 .sendForm {
     margin: 30px 20px;
     display: flex;
+
+
 }
 
 .textarea {
@@ -15,6 +17,8 @@
     min-width: 60%;
     vertical-align: middle;
     font-family: 'Montserrat', sans-serif;
+    color: black;
+
 
 }
 
@@ -30,6 +34,7 @@
     font-size: 16px;
     flex: 1 1 120px;
     font-family: 'Montserrat', sans-serif;
+
 }
 
 .button:hover {

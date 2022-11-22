@@ -1,5 +1,5 @@
 import React from 'react'
-import { AffairType, filterAffairs } from '../HW2'
+import {AffairType, filterAffairs,} from '../HW2'
 
 let initialState: AffairType[]
 
@@ -18,7 +18,7 @@ test('filter by all', () => {
     expect(newState.length).toBe(5)
 })
 test('filter by high', () => {
-    const newState = filterAffairs(initialState, 'high')
+    const newState = filterAffairs(initialState, 'low')
     expect(newState.length).toBe(2)
 })
 test('filter by middle', () => {
@@ -26,6 +26,6 @@ test('filter by middle', () => {
     expect(newState.length).toBe(1)
 })
 test('filter by low', () => {
-    const newState = filterAffairs(initialState, 'low')
+    const newState = filterAffairs(initialState, 'high')
     expect(newState.length).toBe(2)
 })
