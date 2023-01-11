@@ -29,6 +29,7 @@ function Affair(props: AffairPropsType) {
 
             <button onClick={deleteCallback} id={'hw2-button-delete-' + props.affair._id } className={buttonClass}
                     // need to fix
+            
             >
                  X
             </button>
