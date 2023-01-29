@@ -1,23 +1,63 @@
 .item {
+    border-top: 1px solid #E5E5E5;
+
 }
 
 .item:last-of-type {
 }
 
 .users {
+    width: 663px;
+    margin-top: 10px;
+    margin-left: 70px;
+    padding-left: 10px;
+    border-collapse: collapse;
 }
 
 .buttonsContainer {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 30px;
+    gap: 18px;
 }
 
 .container {
+
 }
 
 .thead {
+    background-color: #E5E5E5;
+    font-weight: bold;
+    height: 36px;
+
 }
 
 .nameCol {
+    /*background-color: lightgrey;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*width: 62px;*/
+    /*height: 16px;*/
+    /*left: 87px;*/
+    /*top: 259px;*/
+
+    /*font-family: Roboto, 'Montserrat';*/
+    /*font-style: normal;*/
+    /*font-weight: 600;*/
+    /*font-size: 14px;*/
+    /*line-height: 16px;*/
+    /*display: flex;*/
+    /*align-items: center;*/
+
+    /*color: #000000;*/
+    padding: 15px;
+
+
 }
 
 .ageCol {
+    /*background-color: lightgrey;*/
+    /*justify-content: space-between;*/
+    padding-right: 87px;
+    font-weight: bold;
 }

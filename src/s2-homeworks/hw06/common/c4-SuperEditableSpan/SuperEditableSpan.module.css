@@ -1,11 +1,21 @@
 .spanBlock {
+    display: flex;
+    gap: 10px;
 }
 
 .span {
+    color: #0080FF;
+    cursor: pointer;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+    width: 250px;
 }
 
 .input {
+
 }
 
-.pen {
+
+
+.pen{
 }
