@@ -1,0 +1,17 @@
+.tech {
+    margin-left: 100px;
+
+}
+
+.loading {
+    margin-left: 330px;
+    color: darkgrey;
+}
+
+input {
+    margin-left: 100px;
+}
+
+input:focus {
+    border: 1px solid blue;
+}

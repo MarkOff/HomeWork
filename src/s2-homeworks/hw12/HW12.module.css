@@ -19,5 +19,10 @@ html {
 }
 
 .select {
-margin-left: 100px;
+    margin-left: 100px;
+}
+
+.text {
+    margin-left: 100px;
+    margin-bottom: 10px;
 }
